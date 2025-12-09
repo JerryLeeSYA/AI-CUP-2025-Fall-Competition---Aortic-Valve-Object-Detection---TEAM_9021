@@ -23,14 +23,23 @@
 
 Project_Root/
 ├── 1_get_dataset.py        # 資料清洗與過採樣腳本
+
 ├── 2_train.py              # YOLOv12 訓練腳本 (支援 DDP)
+
 ├── 3_predict_softNMS.py    # 推論腳本 (含 Soft-NMS & TTA)
+
 ├── aortic_valve_colab.yaml # 資料集設定檔
+
 ├── requirements.txt        # Python 依賴套件清單
+
 ├── yolo12l.pt              # 預訓練權重 (首次執行會自動下載)
+
 ├── training_image.zip      # [官方原始資料]
+
 ├── training_label.zip      # [官方原始資料]
+
 └── testing_image.zip       # [官方原始資料]
+
 
 ## 💻 環境需求 (Requirements)
 本專案測試於 Windows 10 環境。
@@ -99,5 +108,6 @@ python 3_predict_softNMS.py
 資料平衡 (Data Balancing): 透過 5 倍過採樣顯著提升模型對主動脈瓣的 Recall。
 強增強訓練 (Strong Augmentation): 使用 Mosaic 與 Mixup 加上幾何變換，提升模型泛化能力。
 Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過高斯函數衰減重疊框的分數，在 Recall 與 Precision 之間取得最佳平衡，特別適用於 IoU 門檻較高的評測。
+
 
 Author: TEAM_9021
