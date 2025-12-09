@@ -45,9 +45,9 @@ Project_Root/
 ## 💻 環境需求 (Requirements)
 本專案測試於 Windows 10 環境。
 
-OS: Windows 10 / 11 (亦支援 Linux)
+OS: Windows 10
 
-Python: 3.9+
+Python: 3.10.4
 
 GPU: 建議 NVIDIA RTX 2080Ti x3
 
@@ -112,4 +112,5 @@ Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過�
 
 
 Author: TEAM_9021
+
 
