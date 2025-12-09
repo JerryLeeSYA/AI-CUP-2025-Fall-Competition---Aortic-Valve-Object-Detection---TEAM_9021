@@ -22,6 +22,7 @@
 在開始執行之前，請確認您的目錄結構如下，並將官方提供的三個 ZIP 檔放置於根目錄：
 
 Project_Root/
+
 ├── 1_get_dataset.py        # 資料清洗與過採樣腳本
 
 ├── 2_train.py              # YOLOv12 訓練腳本 (支援 DDP)
@@ -111,3 +112,4 @@ Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過�
 
 
 Author: TEAM_9021
+
