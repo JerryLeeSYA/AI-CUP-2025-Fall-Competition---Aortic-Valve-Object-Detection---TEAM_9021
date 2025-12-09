@@ -57,8 +57,8 @@ CUDA: 11.8+
 請依序執行以下指令來建立虛擬環境並安裝依賴套件：
 
 # 1. Clone 本專案
-git clone [您的 Github Repo 連結]
-cd [專案資料夾名稱]
+git@github.com:JerryLeeSYA/AI-CUP-2025-Fall-Competition---Aortic-Valve-Object-Detection---TEAM_9021.git
+cd AI-CUP-2025-Fall-Competition---Aortic-Valve-Object-Detection---TEAM_9021
 
 # 2. 建立 Python 虛擬環境
 python -m venv .venv
@@ -112,5 +112,6 @@ Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過�
 
 
 Author: TEAM_9021
+
 
 
