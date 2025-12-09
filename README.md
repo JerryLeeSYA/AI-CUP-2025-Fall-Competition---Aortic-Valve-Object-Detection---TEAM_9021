@@ -65,7 +65,7 @@ python -m venv .venv
 
 # 3. 啟動虛擬環境 (Windows)
 .\.venv\Scripts\activate
-# (若是 Linux/Mac 請使用: source .venv/bin/activate)
+(若是 Linux/Mac 請使用: source .venv/bin/activate)
 
 # 4. 安裝必要套件
 pip install -r requirements.txt
@@ -112,6 +112,7 @@ Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過�
 
 
 Author: TEAM_9021
+
 
 
 
