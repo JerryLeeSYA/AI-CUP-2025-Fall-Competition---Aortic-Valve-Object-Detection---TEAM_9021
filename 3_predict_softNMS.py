@@ -216,4 +216,3 @@ with open(output_path, 'w', encoding='utf-8') as f_out:
 print(f"\n✅ 結果已寫入：{output_path}")
 print(f"總框數: {total_boxes}")
 print(f"平均每張圖框數: {total_boxes / len(per_image_preds):.2f}")
-print("\n🚀 完成！請用 Smart Filter 處理後再提交")
