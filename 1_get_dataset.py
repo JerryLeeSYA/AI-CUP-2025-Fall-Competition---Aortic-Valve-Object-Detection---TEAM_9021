@@ -9,8 +9,8 @@ train_img_zip = 'training_image.zip'
 train_lbl_zip = 'training_label.zip'
 temp_unzip_path = Path('./temp_unzip_for_prep')
 final_dataset_path = Path('./datasets')
-train_patient_range = range(1, 40)
-val_patient_range = range(41, 50)
+train_patient_range = range(1, 41)
+val_patient_range = range(41, 51)
 oversample_factor = 5  # <--- 在這裡設定您想要的過採樣倍數
 
 # --- 2. 輔助函式 ---

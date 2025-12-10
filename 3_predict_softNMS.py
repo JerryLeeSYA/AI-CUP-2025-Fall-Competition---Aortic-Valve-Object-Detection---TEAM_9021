@@ -18,7 +18,7 @@ SOFT_NMS_SCORE_THR = 1e-4     # Soft-NMS 之後保留框的最小分數
 TOP_K_PER_IMAGE = 10          # 每張圖最多保留幾個框
 
 # --- 模型與路徑 ---
-MODEL_PATH = r'runs\detect\train\weights\epoch45.pt'
+MODEL_PATH = r'runs\detect\train\weights\bset.pt'
 
 # =========================
 # Soft-NMS 實作
