@@ -53,6 +53,8 @@ GPU: 建議 NVIDIA RTX 2080Ti x3
 
 CUDA: 11.8+
 
+ultralytics: 8.3.214
+
 ## ⚙️ 安裝與設定 (Installation)
 請依序執行以下指令來建立虛擬環境並安裝依賴套件：
 
@@ -116,6 +118,7 @@ Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過�
 
 
 Author: TEAM_9021
+
 
 
 
