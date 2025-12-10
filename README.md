@@ -63,11 +63,16 @@ git clone https://github.com/JerryLeeSYA/AI-CUP-2025-Fall-Competition---Aortic-V
 python -m venv .venv
 
 # 3. 啟動虛擬環境 (Windows)
-.\.venv\Scripts\activate
+".\.venv\Scripts\activate"
 (若是 Linux/Mac 請使用: source .venv/bin/activate)
 
 # 4. 安裝必要套件
 pip install -r requirements.txt
+
+# 5. 放置官方數據集
+training_image.zip
+training_label.zip
+testing_image.zip
 
 ## 🚀 執行流程 (Usage)
 請依照順序執行以下三個 Python 腳本。
@@ -111,6 +116,7 @@ Gaussian Soft-NMS: 不同於傳統 NMS 直接刪除重疊框，Soft-NMS 透過�
 
 
 Author: TEAM_9021
+
 
 
 
